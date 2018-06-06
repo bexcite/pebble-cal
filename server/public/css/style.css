@@ -1,0 +1,26 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+
+.title {
+  padding-top: 15px;
+  /*padding: 10px 10px; */
+  text-transform: uppercase;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.1em;
+  font-weight: 500;
+  color: #888888;
+  text-align: center;
+}
+
+#content {
+  margin-top: 10px;
+}
+
+.loading {
+  padding: 10px;
+  font-size: 1.2em;
+  font-weight: 400;
+  text-align: center;
+  color: #333333;
+}

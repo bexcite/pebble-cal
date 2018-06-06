@@ -1,0 +1,70 @@
+{
+  "uuid": "222ad43f-6ca4-45eb-afbc-eb7ccf87964c",
+  "shortName": "My Calendar",
+  "longName": "My Calendar",
+  "companyName": "Stanfy",
+  "versionCode": 1,
+  "versionLabel": "1.7",
+  "sdkVersion": "3",
+  "watchapp": {
+    "watchface": false
+  },
+  "targetPlatforms": [
+    "aplite",
+    "basalt",
+    "chalk"
+  ],
+
+  "capabilities": [
+    "configurable"
+  ],
+  "appKeys": {
+    "cmdUpdate": 0,
+    "cmdError": 1
+  },
+  "resources": {
+    "media": [
+      {
+        "type": "raw",
+        "name": "FONT_35",
+        "file": "fonts/35_5E05D3DC_font11.pfo"
+      },
+      {
+        "type": "font",
+        "name": "FONT_ROBOTO_34_BOLD",
+        "file": "Roboto_Condensed_700.ttf"
+      },
+      {
+        "type": "font",
+        "name": "FONT_ROBOTO_64_BOLD",
+        "file": "Roboto_Condensed_700.ttf"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_ICON",
+        "file": "images/ico28.png",
+        "menuIcon": true
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_EXCL_MARK",
+        "file": "images/ExclMark.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_BATTERY",
+        "file": "images/Battery.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_BLUETOOTH",
+        "file": "images/Bluetooth.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_CHARGE",
+        "file": "images/Charge.png"
+      }
+    ]
+  }
+}

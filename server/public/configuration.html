@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Calendar pebble app configuration</title>
+
+        <link rel='stylesheet' type='text/css' href='css/slate.min.css'>
+        <link rel='stylesheet' type='text/css' href='css/style.css'>
+
+        <script type="text/javascript" src="js/handlebars.min.js"></script>
+        <script type="text/javascript" src="js/slate.min.js"></script>
+        <script type="text/javascript" src="js/zepto.min.js"></script>
+
+    </head>
+    <body>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '<ID>', 'auto');
+  ga('send', 'pageview');
+</script>
+
+        <div class="title">Settings</div>
+
+        <pre id="logs" style="margin:10px 20px; word-wrap: break-word; border: 3px solid green;display: none;"></pre>
+
+        <div id="content"></div>
+
+<!--
+        <a id="link"></a>
+
+        <h3 style="text-align: center; margin-top: 50px; color: #666;">Setting up Google Calendar ...</h3>
+
+        <div class='item-container'>
+            <h1 class='title'>Watchface<br>Configuration Page</h1>
+        </div>
+
+
+        <div class='item-container'>
+            <div class='item-container-content'>
+              <div class='item'>
+                Use this configuration page to choose the settings you would like
+                applied to this app.
+              </div>
+            </div>
+        </div>
+
+        <div class='item-container'>
+            <div class='item-container-header'>Customizability</div>
+            <div class='item-container-content'>
+                <label class='item'>
+                    Background Color
+                    <input id='background_color_picker' type='text' class='item-color item-color-sunny' value='#000000'>
+                </label>
+            </div>
+            <div class='item-container-footer'>
+                Choose the app's background color. Used if High Contrast Mode is not selected. Note: Only available on Basalt watches that support many colors.
+            </div>
+        </div>
+
+        <div class='item-container'>
+            <div class='item-container-header'>Accessibility</div>
+            <div class='item-container-content'>
+                <label class='item'>
+                    High Contrast Mode
+                    <input id='high_contrast_checkbox' type='checkbox' class='item-toggle'>
+                </label>
+            </div>
+            <div class='item-container-footer'>
+                This switches the app colors to a higher contrast set that promotes readability in low light.
+            </div>
+        </div>
+
+        <div class='item-container'>
+            <div class='button-container'>
+                <input id='submit_button' type='button' class='item-button' value='SUBMIT'>
+            </div>
+        </div>
+-->
+
+<!--
+        <script id="hb-template" type="text/x-handlebars-template">
+        {{#if code}}<p>Google Calendar is setup.</p>{{/if}}
+        {{#if code_error}}<p style="color: red">{{code_error}}</p>{{/if}}
+
+        {{#unless code}}
+        <p><a href="https://accounts.google.com/o/oauth2/auth?response_type=code&access_type=offline&prompt=consent%20select_account&client_id={{GOOGLE_CLIENT_ID}}&redirect_uri={{REDIRECT_URI}}&scope={{SCOPE}}">
+            Give Watchapp access to your Google Calendar
+        </a></p>
+        {{/unless}}
+        {{#if code}}<p><a href="javascript:void(0)" id="clear-code">Stop using your Google Calendar</a></p>
+
+        <p>Clicking the link above does not prevent the Watchapp from
+        having access to your calendar, it just tells it to stop using it. To
+        completely disable access to your calendar, you need to visit the <a
+        completely disable access to your calendar, you need to visit the <a
+            href="https://security.google.com/settings/security/permissions?pli=1">Google
+            Account Permissions</a> page to revoke access to this
+        watch application.</p>
+        {{/if}}
+
+        <form>
+            <input type="hidden" id="code" name="code" value="{{code}}">
+            <input type="button" id="finished" name="submit" value="Save">
+        </form>
+        </script>
+-->
+
+<script id="google-login-view" type="type/x-handlebars-template">
+
+    <div class="item-container-content">
+        <div class="item">
+          Welcome to My Calendar! Please connect your Google Account.
+        </div>
+    </div>
+
+    <div class="item-container">
+        <div class="button-container">
+            <input id="google-connect-button" type="button" class="item-button" value="Connect Google Calendar">
+        </div>
+    </div>
+
+</script>
+
+
+
+<script id="settings-view" type="type/x-handlebars-template">
+
+    <div class="item-container-content">
+        <div class="item">
+          Google account is connected.
+        </div>
+    </div>
+
+    <div class='item-container'>
+        <div class='button-container'>
+            <input id='unlink-google-button' type='button' class='item-button' value='Unlink Google Account'>
+        </div>
+    </div>
+
+</script>
+
+<script id="loading-view" type="type/x-handlebars-template">
+
+    <div class="item-container-content">
+        <div class="item">{{message}}</div>
+    </div>
+
+</script>
+
+
+        <script type="text/javascript" src="js/main.js"></script>
+
+
+
+    </body>
+</html>

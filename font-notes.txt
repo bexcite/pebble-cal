@@ -1,0 +1,116 @@
+ 
+=== Useful Links
+
+Official Doc - Handling Pebble Font Resources
+http://developer.getpebble.com/2/guides/ux-fonts.html
+
+Pebble Fonts and Metar Watchface
+http://www.oxfordechoes.com/pebble-fonts/
+
+7 Tools for create your own fonts
+http://mashable.com/2011/11/17/free-font-creation-tools/#gallery/7-tools-for-creating-your-own-fonts/50bddbb097b2f830e70000e7
+
+Patched fontgen.py
+https://gist.github.com/southwolf/5463830
+
+Font Pebble Tools (southwolf/pebble_tools)
+https://github.com/southwolf/pebble_tools
+
+Patch on Pebble Fonts and Others
+http://www.panacek.cz/pebble/howto.html
+https://github.com/fisakov/pebble-sdk-characterRegex/blob/master/patch.txt
+
+Resource Font Format
+http://pebbledev.org/wiki/Resource_Font_Format
+
+FontStruct font editor
+http://fontstruct.com/
+
+BitFontMaker2 - online font editor
+http://www.pentacom.jp/pentacom/bitfontmaker2/
+
+Unicode Charts
+http://www.unicode.org/charts/
+
+Cyrillic Unicode Table 0400-04FF
+http://www.unicode.org/charts/PDF/U0400.pdf
+
+Basic Latin 0x0020 - 0x007F
+http://www.unicode.org/charts/PDF/U0000.pdf
+
+Unicode Character 'HORIZONTAL ELLIPSIS' (U+2026) OR ... (three dots)
+http://www.fileformat.info/info/unicode/char/2026/index.htm
+
+Symbols 0x0020 - 0x007e, Basic Latin
+79
+!"#$%&'()*+,-./0123456789:;<=>?@[\]^_`{|}~ ¢£¤¥§©«®°±»¿×÷–—‘’‚“”„•‰‹›€№™≈≠≤≥…㑖
+
+English
+52
+AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz
+
+Russian - 0x0410 - 0x044f, 0x401, 0x451
+66
+АаБбВвГгДдЕеЁёЖжЗзИиЙйКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЩщЪъЫыЬьЭэЮюЯя
+
+Ukrainian - 
+66
+(or +8 to Russian) ҐґЄєІіЇї - 0x403, 0x0453, 0x0404, 0x0454, 0x0406, 0x0456, 0x0407, 0x0457 
+АаБбВвГгҐґДдЕеЄєЖжЗзИиІіЇїЙйКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЩщЬьЮюЯя
+              
+              
+              
+
+=========== test font names ============
+        {
+            "type" : "raw",
+            "name" : "FONT_37",
+            "file" : "fonts/37_4017A438_font14.pfo"
+        },
+
+        {
+            "type" : "raw",
+            "name" : "FONT_38",
+            "file" : "fonts/38_2BFA32BF_font14bold.pfo"
+        },
+
+        {
+            "type" : "raw",
+            "name" : "FONT_39",
+            "file" : "fonts/39_09F0E478_font18.pfo"
+        },
+
+        {
+            "type" : "raw",
+            "name" : "FONT_40",
+            "file" : "fonts/40_4B62D96D_font18.pfo"
+        },
+
+        {
+            "type" : "raw",
+            "name" : "FONT_42",
+            "file" : "fonts/42_8B8E0C1E_font29.pfo"
+        },
+
+        {
+            "type" : "raw",
+            "name" : "FONT_43",
+            "file" : "fonts/43_DFF9B065_font29.pfo"
+        },
+
+
+        {
+            "type" : "raw",
+            "name" : "FONT_48",
+            "file" : "fonts/48_EEB8868B_font15.pfo"
+        },
+
+
+        {
+            "type" : "raw",
+            "name" : "FONT_50",
+            "file" : "fonts/50_FD60D3C4_font20.pfo"
+        },
+
+
+              

@@ -1,0 +1,23 @@
+#!/usr/bin/env python
+import subprocess
+
+deploy_ip = "<DEV_SERVER>"
+
+# Upload html to dev.stanfy.com
+print "\033[92mSending configuration files ...\033[0m"
+subprocess.call("chmod 600 pebble_key", shell=True)
+pathToHtml = 'server/public/'
+command = "rsync -vr " + pathToHtml + " -e 'ssh -p9322 -i pebble_key' pebble@" + deploy_ip + ":pebble-cal/"
+subprocess.call(command, shell=True)
+print
+
+
+subprocess.call(["pebble", "build"])
+
+# print output
+subprocess.call(["pebble", "install", "--emulator", "chalk"])
+# subprocess.call(["pebble", "install"])
+
+# "--debug"
+# subprocess.call(["pebble",  "--debug", "logs"])
+subprocess.call(["pebble",  "logs", "--emulator", "chalk"])

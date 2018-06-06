@@ -1,0 +1,77 @@
+        {
+            "type" : "raw",
+            "name" : "FONT_32",
+            "file" : "fonts/32_8DE7E157_font9.pfo"
+
+        },
+
+        {
+            "type" : "raw",
+            "name" : "FONT_34",
+            "file" : "fonts/34_7833415A_font9bold.pfo"
+        },
+
+        {
+            "type" : "raw",
+            "name" : "FONT_35",
+            "file" : "fonts/35_5E05D3DC_font11.pfo"
+        },
+
+
+        {
+            "type" : "raw",
+            "name" : "FONT_36",
+            "file" : "fonts/36_490A35B3_font11bold.pfo"
+        },
+
+
+        {
+            "type" : "raw",
+            "name" : "FONT_37",
+            "file" : "fonts/37_4017A438_font14.pfo"
+        },
+
+        {
+            "type" : "raw",
+            "name" : "FONT_38",
+            "file" : "fonts/38_2BFA32BF_font14bold.pfo"
+        },
+
+        {
+            "type" : "raw",
+            "name" : "FONT_39",
+            "file" : "fonts/39_09F0E478_font18.pfo"
+        },
+
+        {
+            "type" : "raw",
+            "name" : "FONT_40",
+            "file" : "fonts/40_4B62D96D_font18.pfo"
+        },
+
+        {
+            "type" : "raw",
+            "name" : "FONT_42",
+            "file" : "fonts/42_8B8E0C1E_font29.pfo"
+        },
+
+        {
+            "type" : "raw",
+            "name" : "FONT_43",
+            "file" : "fonts/43_DFF9B065_font29.pfo"
+        },
+
+
+        {
+            "type" : "raw",
+            "name" : "FONT_48",
+            "file" : "fonts/48_EEB8868B_font15.pfo"
+        },
+
+
+        {
+            "type" : "raw",
+            "name" : "FONT_50",
+            "file" : "fonts/50_FD60D3C4_font20.pfo"
+        },
+
