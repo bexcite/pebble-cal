@@ -9,7 +9,11 @@ App URL: https://apps.getpebble.com/applications/5425862155f4a0a817000101
 This code is for reference only and for enthusiasts who are still tinkering their Pebbles :) Enjoy!
 
 # Project dependencies
-* UglifyJS - available to install via NPM ("npm install uglify-js@1 -g"). Check online docs for the most recent version
+* UglifyJS - available to install via NPM.
+```
+npm install uglify-js@1 -g
+```
+Check online docs for the most recent version
 * jshint
 
 # Build, Deploy, Install
@@ -19,7 +23,7 @@ To build pebble app and copy configuration.html files just Run from root:
 ./do-all
 ```
 
-If needed set up env variable PEBBLE_PHONE with your iPhone IP
+If needed set up env variable `PEBBLE_PHONE` with your iPhone IP
 ```
 export PEBBLE_PHONE=<your phone's IP>
 ```
